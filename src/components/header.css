@@ -1,0 +1,85 @@
+body{
+    height: auto;
+    width: 100vw;
+}
+.header{
+    height: 12vh;
+    width: 100vw;
+    background: rgb(11, 11, 59);
+}
+.left{
+    float: left;
+    margin: 2em 0 0 2em;
+}
+.left button{
+    border: none;
+    font-size: large;
+    background: rgb(11, 11, 59);
+    color: white;
+}
+.left button:hover{
+    text-decoration: underline skyblue;
+}
+.right{
+    float: right;
+    margin: 2em 4em 0 4em;
+}
+.right button{
+    border: none;
+    font-size: large;
+    background: rgb(11, 11, 59);
+    color: white;
+}
+.right button:hover{
+    text-decoration: underline skyblue;
+}
+.container{
+    height: 100vh;
+    width: 91.65vw;
+    padding: 2em 4em 0 4em;
+    background: #cccc;
+}
+.flex{
+ height: 90vh;
+ width: 90vw;
+ margin: 0 2em 0 8em;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+.users{
+    height: 25vh;
+    width: 20vw;
+    text-align: center;
+    margin: 2em 2em 0 2em;
+    background: white;
+    box-shadow: 4px 4px 1px 1px grey;
+    border-radius: 10px;
+}
+.users p{
+    margin-top: 2em;
+    font-size: x-large;
+    color: rgba(137, 129, 129, 0.8);
+}
+.users button{
+height: 2rem;
+width: 12rem;
+background: rgb(55, 132, 162);
+color: white;
+border: none;
+border-radius: 5px;
+}
+.page{
+    height: 3rem;
+    width: 15rem;
+    margin: 1em 0 0 35em;
+}
+.page button{
+    height: 3rem;
+    width: 5rem;
+    color: goldenrod;
+}
+.author h2{
+    text-align: center;
+    color: #cccc;
+}
